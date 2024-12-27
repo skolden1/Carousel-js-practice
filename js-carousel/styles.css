@@ -1,0 +1,55 @@
+body {
+  background-color: rgb(45, 48, 48);
+}
+
+.bild {
+  height: 300px;
+  width: 600px;
+}
+
+.slide-container {
+  margin: 100px auto;
+  width: 600px;
+  position: relative;
+  box-shadow: 5px 5px 5px rgb(20, 20, 20);
+}
+
+.slides img {
+  display: block;
+}
+
+.btn-left, .btn-right {
+  position: absolute;
+  bottom: 0;
+  top: 50%;
+  transform: translateY(-50%); 
+  background: rgba(0, 0, 0, 0.5); 
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.btn-right {
+  right: 0px;
+}
+
+.btn-right:hover, .btn-left:hover {
+  background-color: rgba(71, 71, 68, 0.521);
+}
+
+.slides {
+  display: none;
+}
+
+.slides-active {
+  display: block;
+}
+
+h1 {
+  text-align: center;
+  margin-right: 20px;
+  color: rgb(129, 153, 173);
+  font-size: 50px;
+}
